@@ -86,3 +86,18 @@ nav > div {
   margin: 30px 10px;
   font-size: 25px;
 }
+
+#contact-title {
+  display: flex;
+  height: 50px;
+  background-color: black;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#contact-title-text {
+  font-size: 20px;
+  color: aqua;
+  margin: 0 10px;
+}
