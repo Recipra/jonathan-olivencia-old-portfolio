@@ -1,6 +1,6 @@
 body {
-  background-image: url(https://i.imgur.com/es8uAV3.jpg);
-  background-color: gray;
+  background-image: url(https://th.bing.com/th/id/R.4453521dca97c3188f6a805bb3952098?rik=yoHyJc1bK6yqeQ&pid=ImgRaw&r=0);
+  /* background-color: gray; */
   /* GOTTA MAKE THIS WORK LATER */
   font-family: 'Cabin', sans-serif;
   color: white;
@@ -31,6 +31,31 @@ nav > div {
 }
 
 #intro-text {
+  float: right;
   text-align: right;
-  margin: 50px 20px;
+  width: 40%;
+  margin: 50px 20px 10px 20px;
+}
+
+#normal-pic {
+  float: left;
+  margin: 10px;
+  height: 1000px;
+}
+
+#cooler-pic {
+  margin: 70px 10px -100px 10px;
+  height: 800px;
+}
+
+#cute-athena {
+  float: right;
+  margin: 10px 10px ;
+  height: 410px;
+}
+
+#cuter-athena {
+  float: right;
+  margin: -330px 10px 0 10px;
+  height: 410px;
 }
