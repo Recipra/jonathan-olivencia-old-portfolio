@@ -1,3 +1,11 @@
+body {
+  background-image: url(https://i.imgur.com/es8uAV3.jpg);
+  background-color: gray;
+  /* GOTTA MAKE THIS WORK LATER */
+  font-family: 'Cabin', sans-serif;
+  color: white;
+}
+
 nav {
   display: flex;
   height: 50px;
@@ -9,8 +17,7 @@ nav {
 
 nav > div {
   font-size: 20px;
-  font-family: 'Cabin', sans-serif;
-  color: aqua;
+  color: #00ffff;
   margin: 0 10px;
 }
 
@@ -21,4 +28,9 @@ nav > div {
 
 .nav-button {
   margin-left: 10px;
+}
+
+#intro-text {
+  text-align: right;
+  margin: 50px 20px;
 }
