@@ -101,3 +101,35 @@ nav > div {
   color: aqua;
   margin: 0 10px;
 }
+
+#contact-icons {
+  width: 100vh;
+  margin: 100px auto 100px auto;
+}
+
+#linkedin-logo {
+  margin-left: 150px;
+  height: 250px;
+  border-radius: 100%;
+}
+
+#github-logo {
+  margin-left: 150px;
+  height: 250px;
+  border-radius: 100%;
+}
+
+#resume-title {
+  display: flex;
+  height: 50px;
+  background-color: black;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#resume-title-text {
+  font-size: 20px;
+  color: aqua;
+  margin: 0 10px;
+}
