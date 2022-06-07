@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url(https://th.bing.com/th/id/R.4453521dca97c3188f6a805bb3952098?rik=yoHyJc1bK6yqeQ&pid=ImgRaw&r=0);
   font-family: 'Cabin', sans-serif;
