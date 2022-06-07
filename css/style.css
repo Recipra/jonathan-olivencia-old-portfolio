@@ -55,7 +55,7 @@ nav > div {
 }
 
 #cooler-pic {
-  margin: 70px 10px -100px 35px;
+  margin: 50px 10px -100px 35px;
   height: 800px;
 }
 
@@ -72,6 +72,7 @@ nav > div {
 }
 
 #about-title {
+  margin-top: -10px;
   display: flex;
   height: 50px;
   background-color: black;
@@ -108,7 +109,7 @@ nav > div {
 
 #contact-icons {
   width: 100vh;
-  margin: 100px auto 100px auto;
+  margin: 110px auto 110px auto;
 }
 
 #linkedin-logo {
@@ -133,6 +134,31 @@ nav > div {
 }
 
 #resume-title-text {
+  font-size: 20px;
+  color: aqua;
+  margin: 0 10px;
+}
+
+#resume-text {
+  text-align: center;
+  margin: 20px 10px 35px 10px;
+  font-size: 25px;
+}
+
+#resume-link {
+  color: aqua;
+}
+
+#work-title {
+  display: flex;
+  height: 50px;
+  background-color: black;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#work-title-text {
   font-size: 20px;
   color: aqua;
   margin: 0 10px;
