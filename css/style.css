@@ -175,13 +175,18 @@ nav > div {
 }
 
 #workCarousel {
-  margin-top: 40px;
   width: 700px;
+  margin-top: 40px;
+  height: 800px;
 }
 
 button {
   margin-right: -100px;
   margin-left: -100px;
+}
+
+.carousel-indicators {
+  margin-bottom: -25px;
 }
 
 h4 {
