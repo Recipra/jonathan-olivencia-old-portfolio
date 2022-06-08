@@ -167,3 +167,24 @@ nav > div {
   color: aqua;
   margin: 0 10px;
 }
+
+#work-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#workCarousel {
+  margin-top: 40px;
+  width: 700px;
+}
+
+h4 {
+  margin: 30px;
+  color: purple;
+  text-align: center;
+}
+
+h5, p {
+  color: purple;
+}
