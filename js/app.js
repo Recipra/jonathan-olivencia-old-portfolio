@@ -1,3 +1,5 @@
+import { projectData } from "./project-data.js"
+
 const aboutButton = document.getElementById('about-button')
 const contactButton = document.getElementById('contact-button')
 const resumeButton = document.getElementById('resume-button')

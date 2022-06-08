@@ -175,9 +175,15 @@ nav > div {
 }
 
 #workCarousel {
-  width: 700px;
   margin-top: 40px;
+  width: 700px;
   height: 800px;
+}
+
+.carousel-image {
+  height: 80vh;
+  background-size: cover;
+  background-position: center center;
 }
 
 button {

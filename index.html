@@ -7,7 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  <script defer src="./js/app.js"></script>
+  <script defer src="./js/app.js" type="module"></script>
   <title>Jonathan Olivencia's Portfolio</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Indie+Flower&family=Nanum+Brush+Script&display=swap');
@@ -66,14 +66,22 @@
           <button type="button" data-bs-target="#workCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/tictactoe screenshot.png" class="d-block w-100" alt="tictactoe">
+          <div class="carousel-item active" class="d-block w-100" alt="tictactoe">
+            <div class="carousel-image" style="background-image: url('/assets/tictactoe-screenshot.png')"></div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
           </div>
           <div class="carousel-item">
             <img src="assets/horse1.jpg" class="d-block w-100" alt="horse1">
+            <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
           </div>
           <div class="carousel-item">
             <img src="assets/horse2.jpg" class="d-block w-100" alt="horse2">
+            <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#workCarousel" data-bs-slide="prev">
