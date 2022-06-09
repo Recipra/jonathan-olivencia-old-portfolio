@@ -113,7 +113,23 @@ nav > div {
 
 #contact-icons {
   width: 100vh;
-  margin: 110px auto 130px auto;
+  margin: 110px auto 70px auto;
+}
+
+#contact-hidden-text {
+  text-align: center;
+  margin: 0 -250px 20px 205px;
+}
+
+#contact-hidden-text > div {
+  display: inline-block;
+  font-size: xx-large;
+  margin-left: -400px;
+  color: transparent;
+}
+
+#invisible-text{
+  color: transparent;
 }
 
 #linkedin-logo {
@@ -145,7 +161,7 @@ nav > div {
 
 #resume-title-text {
   font-size: 20px;
-  color: aqua;
+  color: #00ffff;
   margin: 0 10px;
 }
 
