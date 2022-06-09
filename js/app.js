@@ -10,6 +10,10 @@ let projectCarousel = projectData.map(project =>
       <div class="carousel-caption d-none d-md-block">
         <h5>${project.title}</h5>
         <p>${project.description}</p>
+        <div>
+        <a class="project-links" href="${project.deployed}" target="_blank">Deployed</a>
+        <a class="project-links" href="${project.github}" target="_blank">GitHub</a>
+        </div>
       </div>
     </div>
   `

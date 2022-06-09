@@ -7,18 +7,18 @@ let projectData = [
     description: 'A simple tic-tac-toe game'
   },
   {
-    title: 'Brown Horses',
+    title: 'Some Horses',
     deployed: '',
     image: '/assets/horse1.jpg',
     github: '',
     description: 'Two awesome horses'
   },
   {
-    title: 'Black Horse',
+    title: 'Another Horse',
     deployed: '',
     image: '/assets/horse2.jpg',
     github: '',
-    description: 'One horse, just a horse'
+    description: "Oh man, here's another one"
   }
 ]
 
