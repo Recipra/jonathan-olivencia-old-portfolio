@@ -256,3 +256,32 @@ h4 {
 h5, p {
   color: purple;
 }
+
+.css-selector {
+  background: linear-gradient(270deg, #00ffff, #7600ff, #fd00ff, #7600ff, #00ffff);
+  background-size: 1000% 1000%;
+  -webkit-animation: easter-egg 5s ease infinite;
+  -moz-animation: easter-egg 5s ease infinite;
+  -o-animation: easter-egg 5s ease infinite;
+  animation: easter-egg 5s ease infinite;
+}
+@-webkit-keyframes easter-egg {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes easter-egg {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-o-keyframes easter-egg {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes easter-egg {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}

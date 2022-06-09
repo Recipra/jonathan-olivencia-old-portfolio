@@ -31,6 +31,8 @@ const emailLogo = document.getElementById('email-logo')
 const linkedInText = document.getElementById('linkedin-text')
 const gitHubText = document.getElementById('github-text')
 const emailText = document.getElementById('email-text')
+const pageTitle = document.getElementById('page-title')
+const titleBars = document.querySelectorAll('.title-bars')
 
 aboutButton.addEventListener('click', event => {
   scrollToSection(event)
@@ -76,3 +78,9 @@ emailLogo.onmouseover = function() {
 emailLogo.onmouseout = function() {
   emailText.style.color = 'transparent'
 }
+
+pageTitle.addEventListener('click', event => {
+  titleBars.forEach(titleBar => {
+    titleBar.className = 'css-selector title-bars'
+  })
+})
