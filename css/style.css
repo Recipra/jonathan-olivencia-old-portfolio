@@ -117,13 +117,19 @@ nav > div {
 }
 
 #linkedin-logo {
-  margin-left: 150px;
+  margin-left: 70px;
   height: 250px;
   border-radius: 100%;
 }
 
 #github-logo {
-  margin-left: 150px;
+  margin-left: 70px;
+  height: 250px;
+  border-radius: 100%;
+}
+
+#email-logo {
+  margin-left: 70px;
   height: 250px;
   border-radius: 100%;
 }
