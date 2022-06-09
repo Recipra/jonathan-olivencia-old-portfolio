@@ -19,10 +19,6 @@ body {
   'normal cooler cuter';
 }
 
-#homepage-images {
-  min-height: 108vh;
-}
-
 #page-title:hover, .nav-button:hover {
   color: purple;
 }
@@ -289,4 +285,433 @@ h5, p {
   0%{background-position:0% 50%}
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
+}
+
+@media only screen and (max-width: 1024px) {
+  #homepage {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    'normal intro'
+    'normal cuter';
+  }
+  
+  #intro-text {
+    font-size: large;
+  }
+
+  #cooler-pic {
+    display: none;
+  }
+
+  #normal-pic {
+    margin-top: 60px;
+    height: 90%;
+    grid-area: normal;
+  }
+
+  #cute-athena {
+    display: none;
+  }
+
+  #cuter-athena {
+    margin: 10px;
+    width: 90%;
+    grid-area: cuter;
+  }
+  
+  #about-title {
+    margin-top: 40px;
+    display: flex;
+    height: 40px;
+    background-color: black;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  #about-title-text {
+    font-size: 20px;
+    color: aqua;
+    margin: 0 10px;
+  }
+  
+  #about-text {
+    margin: 30px 10px;
+    font-size: 20px;
+  }
+  
+  #contact-title {
+    display: flex;
+    height: 40px;
+    background-color: black;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  #contact-title-text {
+    font-size: 20px;
+    color: aqua;
+    margin: 0 10px;
+  }
+  
+  #contact-icons {
+    width: 80vw;
+    margin: 110px auto 70px auto;
+  }
+  
+  #contact-hidden-text {
+    text-align: center;
+    margin: 0 0 20px 400px;
+    width: 55%;
+  }
+  
+  #contact-hidden-text > div {
+    display: inline-block;
+    font-size: x-large;
+    margin-left: -325px;
+    color: transparent;
+  }
+  
+  #linkedin-logo {
+    margin-left: 70px;
+    height: 175px;
+    border-radius: 100%;
+  }
+  
+  #github-logo {
+    margin-left: 70px;
+    height: 175px;
+    border-radius: 100%;
+  }
+  
+  #email-logo {
+    margin-left: 70px;
+    height: 175px;
+    border-radius: 100%;
+  }
+  
+  #resume-title {
+    display: flex;
+    height: 40px;
+    background-color: black;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  #resume-title-text {
+    font-size: 20px;
+    color: #00ffff;
+    margin: 0 10px;
+  }
+  
+  #resume-text {
+    text-align: center;
+    margin: 20px 10px 35px 10px;
+    font-size: 25px;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: aqua;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: aqua;
+  }
+  
+  #resume-link {
+    color: aqua;
+  }
+  
+  #work-title {
+    display: flex;
+    height: 40px;
+    background-color: black;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  #work-title-text {
+    font-size: 20px;
+    color: aqua;
+    margin: 0 10px;
+  }
+  
+  #work-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #workCarousel {
+    margin-top: 40px;
+    width: 700px;
+    height: 800px;
+  }
+  
+  .carousel-image {
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  button {
+    margin-right: -100px;
+    margin-left: -100px;
+  }
+  
+  .carousel-indicators {
+    margin-bottom: -25px;
+  }
+  
+  h4 {
+    margin: 30px;
+    color: purple;
+    text-align: center;
+  }
+  
+  .carousel-caption {
+    background-color: white;
+    border: 4px solid purple;
+  }
+  
+  .project-links {
+    margin: 0 10px 0 10px;
+    border: 2px solid;
+    padding: 4px;
+    color: purple;
+  }
+  
+  h5, p {
+    color: purple;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  nav > div {
+    font-size: 13px;
+  }
+
+  #homepage {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 70% 30%;
+    grid-template-areas: 
+    'intro intro'
+    'normal cuter';
+  }
+  
+  #intro-text {
+    text-align: center;
+    font-size: x-large;
+    grid-area: intro;
+  }
+
+  #cooler-pic {
+    display: none;
+  }
+
+  #normal-pic {
+    margin: 10px;
+    height: 100%;
+    grid-area: normal;
+  }
+
+  #cute-athena {
+    display: none;
+  }
+
+  #cuter-athena {
+    margin: 10px;
+    height: 100%;
+    grid-area: cuter;
+  }
+  
+  #about-title {
+    margin-top: 130px;
+    display: flex;
+    height: 40px;
+    background-color: black;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  #about-title-text {
+    font-size: 15px;
+    color: aqua;
+    margin: 0 10px;
+  }
+  
+  #about-text {
+    margin: 35px 10px;
+    font-size: 17px;
+  }
+  
+  #contact-title {
+    display: flex;
+    height: 40px;
+    background-color: black;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  #contact-title-text {
+    font-size: 20px;
+    color: aqua;
+    margin: 0 10px;
+  }
+  
+  #contact-icons {
+    width: 80vw;
+    margin: 110px auto 70px auto;
+  }
+  
+  #contact-hidden-text {
+    display: none;
+  }
+  
+  #contact-hidden-text > div {
+    display: inline-block;
+    font-size: x-large;
+    margin-left: -325px;
+    color: transparent;
+  }
+  
+  #linkedin-logo {
+    margin-bottom: 40px;
+    height: 175px;
+    border-radius: 100%;
+  }
+  
+  #github-logo {
+    margin-bottom: 40px;
+    height: 175px;
+    border-radius: 100%;
+  }
+  
+  #email-logo {
+    display: none;
+  }
+  
+  #resume-title {
+    display: flex;
+    height: 40px;
+    background-color: black;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  #resume-title-text {
+    font-size: 20px;
+    color: #00ffff;
+    margin: 0 10px;
+  }
+  
+  #resume-text {
+    text-align: center;
+    margin: 120px 10px 120px 10px;
+    font-size: 30px;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: aqua;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: aqua;
+  }
+  
+  #resume-link {
+    color: purple;
+  }
+  
+  #work-title {
+    display: flex;
+    height: 40px;
+    background-color: black;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  #work-title-text {
+    font-size: 20px;
+    color: aqua;
+    margin: 0 10px;
+  }
+  
+  #work-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #workCarousel {
+    margin-top: 40px;
+    width: 250px;
+    height: 200px;
+  }
+  
+  .carousel-image {
+    height: 25vh;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  button {
+    margin-right: -70px;
+    margin-left: -70px;
+  }
+  
+  .carousel-indicators {
+    margin-bottom: -45px;
+  }
+  
+  h4 {
+    margin: 60px auto 30px auto;
+    color: aqua;
+    text-align: center;
+  }
+  
+  .carousel-caption {
+    background-color: white;
+    border: 4px solid purple;
+  }
+  
+  .project-links {
+    display: none;
+  }
+  
+  h5, p {
+    color: purple;
+  }
 }
