@@ -1,7 +1,6 @@
 import { projectData } from "./project-data.js"
 
 const innerCarousel = document.getElementById('carousel-inner')
-console.log(projectData)
 
 let projectCarousel = projectData.map(project => 
   `

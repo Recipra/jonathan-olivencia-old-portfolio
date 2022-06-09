@@ -10,6 +10,13 @@ body {
 
 #homepage {
   min-height: 100vh;
+  display: grid;
+  grid-template-columns: 40% 40% 20%;
+  grid-template-rows: 20% 40% 40%;
+  grid-template-areas: 
+  'normal intro intro'
+  'normal cooler cute'
+  'normal cooler cuter';
 }
 
 #homepage-images {
@@ -45,38 +52,39 @@ nav > div {
 }
 
 #intro-text {
-  float: right;
   text-align: right;
-  width: 55%;
   font-size: 20px;
   margin: 30px 10px 10px 20px;
+  grid-area: intro;
 }
 
 #normal-pic {
-  float: left;
   margin: 10px;
-  height: 1000px;
+  width: 95%;
+  grid-area: normal;
 }
 
 #cooler-pic {
-  margin: 50px 10px -100px 35px;
-  height: 800px;
+  margin: 10px;
+  height: 97%;
+  width: 95%;
+  grid-area: cooler;
 }
 
 #cute-athena {
-  float: right;
-  margin: 10px 15px ;
-  height: 400px;
+  margin: 10px;
+  width: 75%;
+  grid-area: cute;
 }
 
 #cuter-athena {
-  float: right;
-  margin: -325px 15px 0 10px;
-  height: 400px;
+  margin: 10px;
+  width: 75%;
+  grid-area: cuter;
 }
 
 #about-title {
-  margin-top: -10px;
+  margin-top: 10px;
   display: flex;
   height: 40px;
   background-color: black;
@@ -113,22 +121,19 @@ nav > div {
 
 #contact-icons {
   width: 100vh;
-  margin: 110px auto 70px auto;
+  margin: 150px auto 70px auto;
 }
 
 #contact-hidden-text {
   text-align: center;
-  margin: 0 -250px 20px 205px;
+  margin: 0 0 20px 400px;
+  width: 80%;
 }
 
 #contact-hidden-text > div {
   display: inline-block;
   font-size: xx-large;
   margin-left: -400px;
-  color: transparent;
-}
-
-#invisible-text{
   color: transparent;
 }
 
