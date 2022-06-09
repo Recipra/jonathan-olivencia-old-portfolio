@@ -201,6 +201,11 @@ h4 {
   text-align: center;
 }
 
+.carousel-caption {
+  background-color: white;
+  border: 3px solid purple;
+}
+
 h5, p {
   color: purple;
 }

@@ -9,16 +9,16 @@ let projectData = [
   {
     title: 'Brown Horses',
     deployed: '',
-    image: '/assets/horses1.jpg',
+    image: '/assets/horse1.jpg',
     github: '',
     description: 'Two awesome horses'
   },
   {
     title: 'Black Horse',
     deployed: '',
-    image: '/assets/horses2.jpg',
+    image: '/assets/horse2.jpg',
     github: '',
-    description: 'One horse with a DUMPY'
+    description: 'One horse, just a horse'
   }
 ]
 
