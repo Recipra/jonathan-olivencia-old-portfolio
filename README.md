@@ -4,6 +4,8 @@ As the title suggests, this is my portfolio! Built with HTML, CSS, and JavaScrip
 
 Deployment link: https://jonathan-olivencia-portfolio.netlify.app/
 
+Trello Planning: https://trello.com/b/apqTuA0I/jonathan-olivencia-portfolio
+
 Screenshot: https://imgur.com/c67c0d69-8c66-4fe9-ba34-e3fba4ca8694
 
 Used HTML, CSS, JavaScript, git, Bootstrap, and CSS Gradient Animator
