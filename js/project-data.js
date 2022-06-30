@@ -7,11 +7,11 @@ let projectData = [
     description: 'A simple tic-tac-toe game'
   },
   {
-    title: 'Some Horses',
-    deployed: '',
+    title: 'Sportify',
+    deployed: 'https://sport-ify.herokuapp.com/',
     image: '/assets/horse1.jpg',
-    github: '',
-    description: 'Two awesome horses'
+    github: 'https://github.com/Recipra/sportify',
+    description: 'Sports trading-card application'
   },
   {
     title: 'Another Horse',
