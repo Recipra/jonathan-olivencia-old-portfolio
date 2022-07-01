@@ -9,7 +9,7 @@ let projectData = [
   {
     title: 'Sportify',
     deployed: 'https://sport-ify.herokuapp.com/',
-    image: '/assets/horse1.jpg',
+    image: '/assets/sportify-homepage.png',
     github: 'https://github.com/Recipra/sportify',
     description: 'Sports trading-card application'
   },
