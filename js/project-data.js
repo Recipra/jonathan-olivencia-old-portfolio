@@ -14,11 +14,11 @@ let projectData = [
     description: 'Sports trading-card application'
   },
   {
-    title: 'Another Horse',
-    deployed: '',
-    image: '/assets/horse2.jpg',
-    github: '',
-    description: "Oh man, here's another one"
+    title: 'Stranded',
+    deployed: 'https://stranded-ga.herokuapp.com/',
+    image: '/assets/stranded-cropped.png',
+    github: 'https://github.com/Recipra/stranded',
+    description: 'Interactive survival application'
   }
 ]
 
