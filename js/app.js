@@ -7,7 +7,7 @@ let projectCarousel = projectData.map(project =>
     <div class="carousel-item active" class="d-block w-100" alt="tictactoe">
       <div class="carousel-image" style="background-image: url('${project.image}')"></div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>${project.title} - CURRENTLY BEING REDONE</h5>
+        <h5>${project.title}</h5>
         <p>${project.description}</p>
         <div>
         <a class="project-links" href="${project.deployed}" target="_blank">Deployed</a>
